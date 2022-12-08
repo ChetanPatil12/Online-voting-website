@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+#bg {
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/Artboar.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#loginSection {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+}
+
+#headerSection {
+    width: 180px;
+    position: relative;
+    top: 90px;
+    left: 235px;
+}
+
+#headerSection h1 {
+    color: #607d8b;
+    font-weight: 600;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #ff4584;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.inp input {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 30px;
+}
+
+.inp span {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#box h2 {
+    color: #607d8b;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #ff4584;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+#loginbtn {
+    background: #ff4584;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 50%;
+    outline: none;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+}
+
+#loginbtn:hover {
+    background: #f53677;
+}
+
+#box form select {
+    padding-left: 4px;
+    padding-right: 2px;
+    border-radius: 20px;
+    color: #607d8b;
+}
+
+#box span {
+    color: #607d8b;
+}
+
+#link {
+    color: #ff4584;
+}
+
+
+/* registeration  page css   */
+
+#backg {
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/regis.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.inpu {
+    /* width: 100%; */
+    padding: 5px 10px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 30px;
+}
+
+#box1 {
+    position: relative;
+    display: flex;
+    height: 100%;
+    top: 100px;
+    left: 700px;
+}
+
+#headerSection1 {
+    position: relative;
+    display: flex;
+    left: 450px;
+    top: 50px;
+    color: #607d8b;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #ff4584;
+    letter-spacing: 1px;
+    width: 420px;
+}
+
+#backg h2 {
+    position: relative;
+    display: flex;
+    color: #607d8b;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #ff4584;
+    letter-spacing: 1px;
+    width: 200px;
+    left: 700px;
+    top: 100px;
+}
+
+#backg span {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 250;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#link1 {
+    color: #ff4584;
+    position: relative;
+    top: -10px;
+    left: 3px;
+}
+
+#upload select {
+    padding-left: 4px;
+    padding-right: 2px;
+    border-radius: 20px;
+    color: #607d8b;
+}
+
+#loginbtn {
+    background: #ff4584;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 50%;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+}
+
+.add {
+    width: 100%;
+}
+
+
+/* dashboard css  */
+
+#back-button {
+    background: #ff4584;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#logout-button {
+    background: #ff4584;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#headerSection2 h1 {
+    color: #607d8b;
+    font-weight: 600;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    /* border-bottom: 4px solid #ff4584; */
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#profileSection {
+    position: fixed;
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+#groupSection {
+    position: relative;
+    width: 650px;
+    float: right;
+    margin: 0;
+    right: 20px;
+}
+
+#profileSection img {
+    margin: 10px;
+}
+
+.show {
+    margin-bottom: 5px;
+}
+
+#profileSection span {
+    color: #607d8b;
+    letter-spacing: 1px;
+}
